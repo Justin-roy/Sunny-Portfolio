@@ -59,6 +59,10 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
+  .about-pic{
+    margin: auto;
+    height: 29vh;
+  }
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
@@ -83,8 +87,14 @@
     text-align: center;
   }
   .section__pic-container {
+    margin-bottom: 22vh;
     width: auto;
     height: 46vw;
+    justify-content: center;
+  }
+  .section__pic-container img {
+    width: auto;
+    height: 85vw;
     justify-content: center;
   }
   .section__text__p2 {
